@@ -1,0 +1,4 @@
+>>> vlc.State.__dict__
+mappingproxy({'__module__': 'vlc', '__doc__': 'Note the order of libvlc_state_t enum must match exactly the order of\nSee mediacontrol_playerstatus, See input_state_e enums,\nand videolan.libvlc.state (at bindings/cil/src/media.cs).\nexpected states by web plugins are:\nidle/close=0, opening=1, playing=3, paused=4,\nstopping=5, ended=6, error=7.\n    ',
+
+ '_enum_names_': {0: 'NothingSpecial', 1: 'Opening', 2: 'Buffering', 3: 'Playing', 4: 'Paused', 5: 'Stopped', 6: 'Ended', 7: 'Error'}, '__ctype_be__': <class 'vlc.State'>, '__ctype_le__': <class 'vlc.State'>, 'Buffering': vlc.State.Buffering, 'Ended': vlc.State.Ended, 'Error': vlc.State.Error, 'NothingSpecial': vlc.State.NothingSpecial, 'Opening': vlc.State.Opening, 'Paused': vlc.State.Paused, 'Playing': vlc.State.Playing, 'Stopped': vlc.State.Stopped})i
